@@ -28,7 +28,7 @@ const server = http.createServer((req, res) => {
 //console.log( os.cpus() );
 //console.log( os.freemem() );
 console.log( fs.readFileSync('c:/test.txt').toString() );
-console.log( fs.copyFileSync('c:/test.txt', 'c:/test2.txt') );
+//console.log( fs.copyFileSync('c:/test.txt', 'c:/test2.txt') );
 
 const arr = [1,5,7,22,6,9,4];
 console.log(_.sortBy(arr));

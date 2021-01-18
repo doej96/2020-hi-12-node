@@ -7,3 +7,5 @@
 git에 올라와있는 파일 다시 깔 때는 node_modules파일 없지만
 package jason에 다 기록돼 있기 때문에 npm i하면 깔림
  */
+
+//실행할 때는 (node 03.modules)
