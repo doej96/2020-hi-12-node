@@ -16,18 +16,11 @@ app.listen(3000, () => {console.log('http://127.0.0.1:3000')}); //콘솔.로그�
 app.use('/', express.static( path.join(__dirname, 'public') )); //C:\도은정-수업\12.node\public이 정적폴더로
 //루트로 들어오면 정적인폴더인 public로 보냄
 
+app.get('/search', (req, res) => {
+	const q = req.query.q;
+	res.send(`<h2>${q}의 검색결과는 아직은...</h2>`)
+})
+
 app.use((req, res) => {
-	const html = `
-	<!doctype html>
-	<html>
-		<head>
-			<meta charset="utf-8">
-			<title>File not found</title>
-		</head>
-	<body style="margin: 10% 0 0 10%">
-		<h1>Error 404</h1>
-		<p>파일을 찾을 수 없습니다.</p>
-	</body>
-	</html>`;
-	res.send(html);
+	res.redirect('/html/404.html'); //'/'는 public
 })
