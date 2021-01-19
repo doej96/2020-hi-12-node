@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hash</title>
+	<style>
+		.section {height: 100vh;}
+		.page1 {background-color: blanchedalmond;}
+		.page2 {background-color: coral;}
+		.page3 {background-color: cornflowerblue;}
+	</style>
+</head>
+<body>
+	<!-- http://127.0.0.1:5500/hash.html#page2 -->
+	<header>
+		<a href="#page1">page1</a>
+		<a href="#page2">page2</a>
+		<a href="#page3">page3</a>
+	</header>
+	<a name="page1"></a> <!-- id와 name으로 설정가능 -->
+	<div class="section page1"></div>
+
+	<a name="page2"></a>
+	<div class="section page2"></div>
+
+	<a name="page3"></a>
+	<div class="section page3"></div>
+</body>
+</html>
