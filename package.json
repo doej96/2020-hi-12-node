@@ -1,7 +1,6 @@
 {
   "name": "12.node",
   "version": "1.0.0",
-  "description": "",
   "main": "01.hello.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,6 +24,8 @@
     "moment": "^2.29.1",
     "morgan": "^1.10.0",
     "multer": "^1.4.2",
+    "path": "^0.12.7",
     "pug": "^3.0.0"
-  }
+  },
+  "description": ""
 }
