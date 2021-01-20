@@ -1,4 +1,3 @@
-//서버를 띄우지않으면 dirname 안나옴
 //노드의 정적변수
 //console.log('__dirname: '+ __dirname); //절대주소
 //console.log('__filename: '+ __filename); //절대경로로 현재 돌고있는 파일이 나옴
