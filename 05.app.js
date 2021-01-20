@@ -7,7 +7,6 @@
 
 //get, post, use가 라우터(표지판)임
 
-const { O_NOCTTY } = require('constants');
 const express = require('express');
 const path = require('path');
 const app = express();
